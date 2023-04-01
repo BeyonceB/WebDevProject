@@ -23,7 +23,6 @@ export async function getAllPosts() {
   return rows;
 }
 
-
 export async function getPostById(id) {
 const [rows] = await pool.query(
   `
